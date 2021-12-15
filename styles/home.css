@@ -1,0 +1,46 @@
+@import './_vars.css';
+
+body {
+	background-image: url('../assets/backgrounds/Home-back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.home-container {
+	margin-left: 10px;
+}
+
+.home-container h1 {
+	font-family: var(--title);
+	font-size:  7rem;
+	margin-top: 160px;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+
+.home-container h3 {
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+
+.home-cta {
+	color: var(--secondary );
+	font-size: 1.7rem;
+	text-decoration: none;
+	margin-top: 30px;
+	display: inline-block;
+	border: 1px var(--secondary) solid;
+	padding: 15px;
+}
+
+.home-cta:hover{
+	color: var(--primary);
+	background-color: var(--secondary);
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}

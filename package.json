@@ -1,0 +1,25 @@
+{
+  "name": "dcyt-resources",
+  "version": "1.0.0",
+  "description": "Repository to storage and serve documentation and study materia of several subjects and degrees for DCyT students",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [
+    "npm",
+    "nextjs",
+    "ucla",
+    "dcyt",
+    "dcyt-resources"
+  ],
+  "author": "Spyridon Mihalopoulos <root.spyro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
