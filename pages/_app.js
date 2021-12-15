@@ -1,18 +1,32 @@
-import React from 'react';
-import Navbar from '../components/navbar';
-import Home from './index';
 import '../styles/main.css'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
 
-const App = () => {
-	return(
-		<div>
-			<Navbar />
-			<div className="home-container">
-				<Home />
-			</div>
-		</div>
-	)
+
+export default function MyApp({ Component, pageProps }) {
+  const router = useRouter()
+  let homeBack 
+
+  if ( router.pathname === '/' ) {
+    homeBack = 'Home.jpg'
+  } 
+
+  if ( router.pathname === '/directorios' ) {
+    homeBack = 'Directorios.jpg'
+  }
+
+  return (
+      <div>
+      <Component {...pageProps} />
+        <style jsx global>
+          {`
+            body {
+              background-image: url('backgrounds/${homeBack}');
+            }
+          `}
+        </style>
+      </div>
+  )
 }
 
-export default App;
 

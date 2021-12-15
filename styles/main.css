@@ -9,19 +9,21 @@
 	/* Colors */
 	--primary: #3D3D3D;
 	--secondary: #E3E3E3;
+	--blue: #50ABB0;
+	--red: #CA4545;
+	--green: #48A060;
 
 }
 
-Html { 
+html { 
 	font-size: 62.5% ;
 }
 
-Body {
+body {
 	box-sizing: border-box;
 	font-family: var(--text);
 	color: var(--secondary);
 	padding: 30px;
-	background-image: url("../assets/backgrounds/Home-back.jpg");
 	background-size: cover;
 	background-position: 87%;
 	background-repeat: no-repeat;
@@ -30,9 +32,31 @@ Body {
 
 /* Header */
 
-.menu{
-	display: none;
+.menu { 
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
 }
+
+.menu a {
+	color: var(--secondary);
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: var(--text);
+	margin-right: 15px;
+}
+
+#menu-logo{ 
+	text-decoration: none;
+	color: var(--secondary);
+	font-family: var(--title);
+	font-size: 1.7rem;
+	margin-right: 15px;
+}
+
 
 
 /* Home */
@@ -42,10 +66,12 @@ Body {
 }
 
 .home-container h1 {
+	margin-top: 60px;
 	font-family: var(--title);
 	font-size:  4rem;
 	margin-bottom: 0%;
 	padding-bottom: 0%;
+	color: var(--blue);
 }
 
 .home-container h3 {
@@ -64,7 +90,7 @@ Body {
 }
 
 .home-cta:hover{
-	color: var(--primary);
+	color: var(--blue);
 	background-color: var(--secondary);
 	-webkit-transition: all 500ms ease;
 -moz-transition: all 500ms ease;
@@ -79,52 +105,38 @@ transition: all 500ms ease;
 	background-position: center;
 	}
 
-/* Navbar */
+	/* Navbar */
 
-.menu { 
-	margin: 0px;
-	padding: 0px;
-	display: flex;
-}
+	.menu a {
+		font-size: 1.7rem;
+	}
 
-.menu a {
-	color: var(--secondary);
-	text-decoration: none;
-	font-size: 1.7rem;
-	font-family: var(--text);
-	margin-right: 15px;
-}
-
-#menu-logo{ 
-	text-decoration: none;
-	color: var(--secondary);
-	font-family: var(--title);
-	font-size: 2.5rem;
-	margin-right: 10px;
-}
+	#menu-logo{ 
+		font-size: 2.5rem;
+	}
 
 
-/* Home */
+	/* Home */
 
-.home-container {
-	margin-left: 10px;
-	text-align: left;
-}
+	.home-container {
+		margin-left: 10px;
+		text-align: left;
+	}
 
-.home-container h1 {
-	font-size: 7rem;
-	margin-top: 160px;
-}
+	.home-container h1 {
+		font-size: 7rem;
+		margin-top: 160px;
+	}
 
-.home-container h3 {
-	font-size: 2.5rem;
-}
+	.home-container h3 {
+		font-size: 2.5rem;
+	}
 
-.home-cta {
-	font-size: 1.7rem;
-	margin-top: 30px;
-	padding: 15px;
-}
+	.home-cta {
+		font-size: 1.7rem;
+		margin-top: 30px;
+		padding: 15px;
+	}
 
 }
 
