@@ -1,15 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import './_vars.css';
+
+:root {
+	/* Fonts */
+	--title: 'Oswald';
+	--text: 'Roboto';
+
+	/* Colors */
+	--primary: #3D3D3D;
+	--secondary: #E3E3E3;
+
+}
 
 Html { 
-	font-size: 62.5%;
+	font-size: 62.5% ;
 }
 
 Body {
+	box-sizing: border-box;
 	font-family: var(--text);
 	color: var(--secondary);
 	padding: 30px;
+	background-image: url("../assets/backgrounds/Home-back.jpg");
+	background-size: cover;
+	background-position: 87%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
+/* Header */
+
+.menu{
+	display: none;
+}
+
+
+/* Home */
+.home-container{
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.home-container h1 {
+	font-family: var(--title);
+	font-size:  4rem;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+
+.home-container h3 {
+	font-size: 1.7rem;
+	font-weight: 100;
+}
+
+.home-cta {
+	color: var(--secondary );
+	font-size: 1.2rem;
+	text-decoration: none;
+	margin-top: 10px;
+	display: inline-block;
+	border: 1px var(--secondary) solid;
+	padding: 10px;
+}
+
+.home-cta:hover{
+	color: var(--primary);
+	background-color: var(--secondary);
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+@media (min-width: 1024px ) {
+
+	body {
+	background-position: center;
+	}
+
+/* Navbar */
+
+.menu { 
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.menu a {
+	color: var(--secondary);
+	text-decoration: none;
+	font-size: 1.7rem;
+	font-family: var(--text);
+	margin-right: 15px;
+}
+
+#menu-logo{ 
+	text-decoration: none;
+	color: var(--secondary);
+	font-family: var(--title);
+	font-size: 2.5rem;
+	margin-right: 10px;
+}
+
+
+/* Home */
+
+.home-container {
+	margin-left: 10px;
+	text-align: left;
+}
+
+.home-container h1 {
+	font-size: 7rem;
+	margin-top: 160px;
+}
+
+.home-container h3 {
+	font-size: 2.5rem;
+}
+
+.home-cta {
+	font-size: 1.7rem;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+}
 
