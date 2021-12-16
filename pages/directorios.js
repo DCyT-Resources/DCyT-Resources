@@ -13,7 +13,7 @@ const Directorios = () => {
 					<div key={index}>
 					<Link href="#"><a>
 						<div className="directory-item" id={directory.id} >
-							<h1> <i className="fas fa-folder-open"></i> {directory.name}</h1>
+							<h1> <i className={directory.icon}></i> {directory.name}</h1>
 						</div>
 						<style jsx>{`
 						.directory-item { 
