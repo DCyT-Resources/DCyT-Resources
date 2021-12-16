@@ -7,7 +7,6 @@ import '../styles/main.css'
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter()
   let homeBack 
-  console.log(router.pathname)
 
   switch(router.pathname) {
     case '/':
@@ -21,7 +20,7 @@ export default function MyApp({ Component, pageProps }) {
     case '/directorios/[section]' :
       for ( let i = 0; i < directories.length; i++ ) {
         if ( router.query.section === directories[i].href ) {
-          homeBack = '../backgrounds/' + directories[i].bgPath
+          homeBack = '/backgrounds/' + directories[i].bgPath
           break
         }
       }
