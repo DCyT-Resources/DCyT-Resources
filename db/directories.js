@@ -24,6 +24,11 @@ const directories = [
 				path: '/docs/matematicas/Calculo-Vectorial-Jorge-Saenz.pdf',
 				icon: 'fas fa-file-pdf',
 			},
+			{
+				name: 'Cálculo Vectorial - Susan Colley',
+				path: '/docs/matematicas/Cálculo vectorial - Susan Colley.pdf',
+				icon: 'fas fa-file-pdf',
+			},
 		]
 	},
 	{

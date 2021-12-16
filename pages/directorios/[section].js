@@ -4,14 +4,19 @@ import directories from '../../db/directories';
 import { useRouter } from 'next/router';
 
 const Section = () => {
+
 	const section = useRouter().query.section;
-  let docs 
+
+	let docs 
 	let dir 
 	for ( let i = 0; i < directories.length; i++) {
 		if ( section === directories[i].href ) {
 			dir = directories[i];
 			docs = directories[i].documents;
 			break
+		} else {
+			docs = [];
+			dir = {};
 		}
 	}
 
