@@ -8,7 +8,18 @@ const directories = [
 		bgPath: 'Matematicas.jpg',
 		color: colors.red,
 		href : 'matematicas',
-		documents: []
+		documents: [
+			{
+				name: 'Cálculo Diferencial - Jorge Saenz',
+				path: '/docs/matematicas/Calculo diferencial - Jorge Saenz.pdf',
+				icon: 'fas fa-file-pdf',
+			},
+			{
+				name: 'Cálculo Integral - Jorge Saenz',
+				path: '/docs/matematicas/Calculo Integral Jorge Saenz.pdf',
+				icon: 'fas fa-file-pdf',
+			},
+		]
 	},
 	{
 		name: 'Estructuras Discretas',
