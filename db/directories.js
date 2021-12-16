@@ -19,6 +19,11 @@ const directories = [
 				path: '/docs/matematicas/Calculo Integral Jorge Saenz.pdf',
 				icon: 'fas fa-file-pdf',
 			},
+			{
+				name: 'Cálculo Vectorial - Jorge Saenz',
+				path: '/docs/matematicas/Calculo-Vectorial-Jorge-Saenz.pdf',
+				icon: 'fas fa-file-pdf',
+			},
 		]
 	},
 	{
@@ -32,6 +37,11 @@ const directories = [
 			{
 				name: 'Fundamentos de la Matemática - Jorge Saenz',
 				path: '/docs/estructuras/Fundamentos de la Matemática - Jorge Saenz.pdf',
+				icon: 'fas fa-file-pdf'
+			},
+			{
+				name: 'Matemáticas Discretas - Johnsonbaugh',
+				path: '/docs/estructuras/Matemáticas discretas.pdf',
 				icon: 'fas fa-file-pdf'
 			},
 		]
@@ -52,7 +62,18 @@ const directories = [
 		bgPath: 'Algebra.jpg',
 		color: colors.blue,
 		href : 'algebra',
-		documents: []
+		documents: [
+			{
+				name: 'Álgebra - Garza',
+				path: '/docs/algebra/Álgebra - Garza.pdf',
+				icon: 'fas fa-file-pdf'
+			},
+			{
+				name: 'Álgebra Lineal y sus aplicaciones - Lay',
+				path: '/docs/algebra/Álgebra lineal y sus aplicaciones - David Lay.pdf',
+				icon: 'fas fa-file-pdf'
+			},
+		]
 	}, 
 	{
 		name: 'Contabilidad',
