@@ -29,6 +29,7 @@ body {
 	background-position: 87%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-color: var(--primary);
 }
 
 /* Header */
