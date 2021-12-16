@@ -13,7 +13,6 @@
 	--blue: #50ABB0;
 	--red: #CA4545;
 	--green: #48A060;
-	--orange: #FF843F;
 
 }
 
@@ -103,16 +102,15 @@ transition: all 500ms ease;
 
 /* Directorys */
 
-.directorys-list {
+.directories-list {
 	margin-top: 30px;
 }
 
-.directorys-list a {
+.directories-list a {
 	text-decoration: none;
 }
 
 .directory-item { 
-	background-color: var(--green);
 	padding: 3px 20px;
 	text-decoration: none;
 	margin-bottom: 10px;
@@ -168,10 +166,10 @@ transition: all 500ms ease;
 
 	/* Directorys */
 
-	.directorys-list {
+	.directories-list {
 		margin-top: 100px;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
 
 	.directory-item { 
