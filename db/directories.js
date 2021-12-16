@@ -75,15 +75,6 @@ const directories = [
 			},
 		]
 	}, 
-	{
-		name: 'Contabilidad',
-		id : 'cont-dir',
-		icon: 'fas fa-clipboard',
-		bgPath: 'Contabilidad.jpg',
-		color: colors.green,
-		href : 'contabilidad',
-		documents: []
-	},
 ]
 
 export default directories
