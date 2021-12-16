@@ -75,6 +75,26 @@ const directories = [
 			},
 		]
 	}, 
+	{
+		name: 'Contabilidad',
+		id : 'cont-dir',
+		icon: 'fas fa-calculator',
+		bgPath: 'Contabilidad.jpg',
+		color: colors.green,
+		href : 'contabilidad',
+		documents: [
+			{
+				name: 'Contabilidad 1 - Francisco Calleja',
+				path: '/docs/contabilidad/Contabilidad 1.pdf',
+				icon: 'fas fa-file-pdf'
+			},
+			{
+				name: 'Contabilidad - Horngren',
+				path: '/docs/contabilidad/Contabilidad - Horngren.pdf',
+				icon: 'fas fa-file-pdf'
+			},
+		]
+	}, 
 ]
 
 export default directories
