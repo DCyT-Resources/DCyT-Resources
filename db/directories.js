@@ -5,41 +5,51 @@ const directories = [
 		name: 'Matemáticas',
 		id : 'math-dir',
 		icon: 'fas fa-square-root-alt',
-		bgPath: 'backgrounds/Matematicas.jpg',
+		bgPath: 'Matematicas.jpg',
 		color: colors.red,
 		href : 'matematicas',
+		documents: []
 	},
 	{
 		name: 'Estructuras Discretas',
 		id : 'est-dir',
 		icon: 'fas fa-brain',
-		bgPath: 'backgrounds/Estructuras.jpg',
-		color: colors.green,
+		bgPath: 'Estructuras.jpg',
+		color: colors.blue,
 		href : 'estructuras',
+		documents: [
+			{
+				name: 'Fundamentos de la Matemática - Jorge Saenz',
+				path: 'docs/estructuras/Fundamentos de la Matemática - Jorge Saenz.pdf'
+			},
+		]
 	},
 	{
 		name: 'Programación',
 		id : 'code-dir',
 		icon: 'fas fa-code',
-		bgPath: 'backgrounds/Programacion.jpg',
+		bgPath: 'Programacion.jpg',
 		color: colors.red,
 		href : 'programacion',
+		documents: []
 	}, 
 	{
 		name: 'Algebra',
 		id : 'alg-dir',
 		icon: 'fas fa-superscript',
-		bgPath: 'backgrounds/Algebra.jpg',
+		bgPath: 'Algebra.jpg',
 		color: colors.blue,
 		href : 'algebra',
+		documents: []
 	}, 
 	{
 		name: 'Contabilidad',
 		id : 'cont-dir',
 		icon: 'fas fa-clipboard',
-		bgPath: 'backgrounds/Contabilidad.jpg',
+		bgPath: 'Contabilidad.jpg',
 		color: colors.green,
 		href : 'contabilidad',
+		documents: []
 	},
 ]
 
