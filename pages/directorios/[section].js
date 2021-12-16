@@ -24,7 +24,7 @@ const Section = () => {
 							<div key={index}>
 								<Link href={doc.path}><a target="_blank">
 									<div className="section-item">
-										<h1> <i className={dir.icon}></i> {doc.name}</h1>
+										<h1> <i className={doc.icon}></i> {doc.name}</h1>
 									</div>
 									<style jsx>{`
 									.section-item { 

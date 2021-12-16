@@ -20,7 +20,8 @@ const directories = [
 		documents: [
 			{
 				name: 'Fundamentos de la Matemática - Jorge Saenz',
-				path: '/docs/estructuras/Fundamentos de la Matemática - Jorge Saenz.pdf'
+				path: '/docs/estructuras/Fundamentos de la Matemática - Jorge Saenz.pdf',
+				icon: 'fas fa-file-pdf'
 			},
 		]
 	},
