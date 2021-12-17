@@ -1,12 +1,30 @@
-# UCLA DCyT Resources
+
+# DCyT Resources
+
+Este proyecto es un repositorio con el fin de almacenar, centralizar y 
+servir documentación y herramientas a los estudiantes del decanato de Ciencias y Tecnología 
+de la UCLA, Lara - Venezuela, sobre las distintas materias de las carreras 
+cursadas.
 
 
-## Descripción
 
-Hola, me llamo Spyridon, es probable que no me conozcas pero soy un estudiante de la carrera de ingiería informática
-del decanato de ciencias y tecnología de la [Universidad Centroccidental Lisandro Alvarado](http://www.ucla.edu.ve/).
 
-Este proyecto es un repositorio del material digital utilizado en las distintas carreras y materias que se ven en el decanato, de manera
-que cualquier estudiante pueda tener acceso directo y rápido a los recursos que necesite.
+## Documentos
+
+ - [Matematicas](./public/docs/matematicas)
+ - [Estructuras Discretas](./public/docs/estructuras)
+ - [Contabilidad](./public/docs/contabilidad)
+ - [Programacion](./public/docs/programacion)
+ - [Algebra](./public/docs/algebra)
+
+
+## Licencia
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Autor/es
+
+- [@roospyro](https://www.github.com/rootspyro)
 
 

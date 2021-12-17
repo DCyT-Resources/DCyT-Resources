@@ -11,22 +11,22 @@ const directories = [
 		documents: [
 			{
 				name: 'Cálculo Diferencial - Jorge Saenz',
-				path: '/docs/matematicas/Calculo diferencial - Jorge Saenz.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Calculo%2FCalculo%20diferencial%20-%20Jorge%20Saenz.pdf?alt=media&token=a212c8db-ddc2-43a2-a5f0-4d66145ec7da',
 				icon: 'fas fa-file-pdf',
 			},
 			{
 				name: 'Cálculo Integral - Jorge Saenz',
-				path: '/docs/matematicas/Calculo Integral Jorge Saenz.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Calculo%2FCalculo%20Integral%20Jorge%20Saenz.pdf?alt=media&token=0960dcdd-74d1-4d66-a848-6eaf5bf75f6f',
 				icon: 'fas fa-file-pdf',
 			},
 			{
 				name: 'Cálculo Vectorial - Jorge Saenz',
-				path: '/docs/matematicas/Calculo-Vectorial-Jorge-Saenz.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Calculo%2FCalculo-Vectorial-Jorge-Saenz.pdf?alt=media&token=ed12f8ed-47d9-444d-bf5b-49ad301b1fe8',
 				icon: 'fas fa-file-pdf',
 			},
 			{
 				name: 'Cálculo Vectorial - Susan Colley',
-				path: '/docs/matematicas/Cálculo vectorial - Susan Colley.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Calculo%2FC%C3%A1lculo%20vectorial%20-%20Susan%20Colley.pdf?alt=media&token=acdbf799-fde1-45d7-b5e5-421b3499db78',
 				icon: 'fas fa-file-pdf',
 			},
 			{
@@ -46,12 +46,12 @@ const directories = [
 		documents: [
 			{
 				name: 'Fundamentos de la Matemática - Jorge Saenz',
-				path: '/docs/estructuras/Fundamentos de la Matemática - Jorge Saenz.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Estructuras%20Discretas%2FFundamentos%20de%20la%20Matem%C3%A1tica%20-%20Jorge%20Saenz.pdf?alt=media&token=23cbdb68-ecbe-4851-b0f2-8f1c78bd8911',
 				icon: 'fas fa-file-pdf'
 			},
 			{
 				name: 'Matemáticas Discretas - Johnsonbaugh',
-				path: '/docs/estructuras/Matemáticas discretas.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Estructuras%20Discretas%2FMatem%C3%A1ticas%20discretas.pdf?alt=media&token=2e13df2e-a8ce-421a-8bda-d7159d5bfab9',
 				icon: 'fas fa-file-pdf'
 			},
 		]
@@ -66,12 +66,12 @@ const directories = [
 		documents: [
 			{
 				name: 'Contabilidad 1 - Francisco Calleja',
-				path: '/docs/contabilidad/Contabilidad 1.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Contabilidad%2FContabilidad%201.pdf?alt=media&token=f4394acd-2a75-422c-bb9d-3c1e077be6bf',
 				icon: 'fas fa-file-pdf'
 			},
 			{
 				name: 'Contabilidad - Horngren',
-				path: '/docs/contabilidad/Contabilidad - Horngren.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Contabilidad%2FContabilidad%20-%20Horngren.pdf?alt=media&token=7402b998-bab4-4450-97d8-d8e3dd51474a',
 				icon: 'fas fa-file-pdf'
 			},
 		]
@@ -96,7 +96,7 @@ const directories = [
 			},
 			{
 				name: 'Clean Code - Robert C Martin',
-				path: '/docs/programacion/Clean Code.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Porgramacion%2FClean%20Code.pdf?alt=media&token=85f3b56c-69fd-4dbb-9087-66f19aaff05b',
 				icon: 'fas fa-file-pdf'
 			},
 			{
@@ -116,12 +116,12 @@ const directories = [
 		documents: [
 			{
 				name: 'Álgebra - Garza',
-				path: '/docs/algebra/Álgebra - Garza.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Algebra%2F%C3%81lgebra%20-%20Garza.pdf?alt=media&token=7bcd04c5-7aa8-4a79-b68b-1142b6c1b543',
 				icon: 'fas fa-file-pdf'
 			},
 			{
 				name: 'Álgebra Lineal y sus aplicaciones - Lay',
-				path: '/docs/algebra/Álgebra lineal y sus aplicaciones - David Lay.pdf',
+				path: 'https://firebasestorage.googleapis.com/v0/b/dcyt-resources.appspot.com/o/Algebra%2F%C3%81lgebra%20lineal%20y%20sus%20aplicaciones%20-%20David%20Lay.pdf?alt=media&token=d5cbbd71-4506-4fdc-8f49-9103a4204ed1',
 				icon: 'fas fa-file-pdf'
 			},
 			{
