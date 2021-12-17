@@ -32,8 +32,6 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
       <div>
-      <Navbar />
-      <Component {...pageProps} />
         <style jsx global>
           {`
             body {
@@ -41,6 +39,8 @@ export default function MyApp({ Component, pageProps }) {
             }
           `}
         </style>
+      <Navbar />
+      <Component {...pageProps} />
       </div>
   )
 }
