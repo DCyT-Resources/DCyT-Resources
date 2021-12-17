@@ -3,6 +3,32 @@ import Link from 'next/link';
 import directories from '../../db/directories';
 import { useRouter } from 'next/router';
 
+export const getStaticPaths = async () => {
+
+	let paths = [];
+	for ( let i of directories ) {
+		paths.push({
+			params: {
+				section: i.href
+			}
+		})
+	}
+
+	return {
+		paths,
+		fallback: false
+	}
+};
+
+
+export const	getStaticProps = async () => {
+	return {
+		props: {
+			directories
+		}
+	}
+}
+
 const Section = () => {
 
 	const section = useRouter().query.section;

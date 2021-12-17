@@ -16,7 +16,7 @@
     "dcyt-resources"
   ],
   "author": "Spyridon Mihalopoulos <root.spyro@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "next": "^12.0.7",
     "react": "^17.0.2",

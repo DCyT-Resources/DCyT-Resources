@@ -7,7 +7,6 @@ const Navbar = ()=> {
 			<div className="menu-links">
 				<Link href="/"><a id="menu-logo">DCyT Resources</a></Link>
 				<Link href="/directorios"><a>Directorios</a></Link>
-				<Link href="#"><a>Contacto</a></Link>
 			</div>
 				
 		</nav>
