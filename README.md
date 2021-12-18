@@ -12,6 +12,7 @@ sitio web aquí:
 [DCyT Resources](https://dcytresources.netlify.app/)
 
 
+<img src='./portada.png' width=100% height=320px />
 
 
 ## Tu repositorio local
