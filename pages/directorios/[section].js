@@ -1,5 +1,5 @@
-import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import directories from '../../db/directories';
 import { useRouter } from 'next/router';
 
@@ -47,6 +47,10 @@ const Section = () => {
 	}
 
 	return(
+		<>
+			<Head>
+				<title>{dir.name}</title>
+			</Head>
 		<div className="directories-container">
 			<div className="section-list">
 				{ 
@@ -69,6 +73,7 @@ const Section = () => {
 				}
 			</div>
 		</div>
+		</>
 	)
 }
 
