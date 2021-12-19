@@ -1,4 +1,4 @@
-import Navbar from '../components/navbar'
+import Layout from '../components/layout'
 import { useRouter } from 'next/router'
 import directories from '../db/directories'
 import '../styles/main.css'
@@ -6,7 +6,6 @@ import '../styles/main.css'
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter()
   let homeBack 
-
   switch(router.pathname) {
     case '/':
       homeBack = 'backgrounds/Home.jpg'
@@ -29,9 +28,11 @@ export default function MyApp({ Component, pageProps }) {
       homeBack = 'backgrounds/Home.jpg'
       break
   }
-
   return (
-      <div>
+    <>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
         <style jsx global>
           {`
             body {
@@ -39,9 +40,7 @@ export default function MyApp({ Component, pageProps }) {
             }
           `}
         </style>
-      <Navbar />
-      <Component {...pageProps} />
-      </div>
+    </>
   )
 }
 
