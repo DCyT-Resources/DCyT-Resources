@@ -25,7 +25,7 @@ export default function MyApp({ Component, pageProps }) {
       break
 
     default:
-      homeBack = 'backgrounds/Home.jpg'
+      homeBack = '/backgrounds/Home.jpg'
       break
   }
   return (
