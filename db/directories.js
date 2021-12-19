@@ -131,6 +131,31 @@ const directories = [
 			},
 		]
 	}, 
-	]
+	{
+		name: 'Sistemas',
+		id : 'sys-dir',
+		icon: 'fas fa-database',
+		bgPath: 'Sistemas.jpg',
+		color: colors.green,
+		href : 'sistemas',
+		documents: [
+			{
+				name: 'Análisis y Diseño de Sistemas - Kendal',
+				path: 'https://drive.google.com/file/d/1raFVCi0Odc6I1hJIOLsL2ZVmlBtS10_X/view?usp=sharing',
+				icon: 'fas fa-file-pdf'
+			},
+			{
+				name: 'Sistemas 1, Temas - Prod. Tibisay Matos',
+				path: 'https://drive.google.com/drive/folders/1sDiePP_1fwVi02PTxA8qB6hEujt8YQjL?usp=sharing',
+				icon: 'fab fa-google-drive'
+				},
+			{
+				name: 'BPMN - Bizagi Suite',
+				path: 'https://drive.google.com/file/d/1PrLl0SlcaeOY1TvbWcFIh63mTVai86dQ/view?usp=sharing',
+				icon: 'fas fa-file-pdf'
+			},
+		]
+	}, 
+]
 
 export default directories
