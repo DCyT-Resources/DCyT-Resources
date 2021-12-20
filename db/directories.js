@@ -85,6 +85,11 @@ const directories = [
 		href : 'programacion',
 		documents: [
 			{
+				name: 'Introducción a la computación - Prof. Gisela Parra',
+				path: 'https://drive.google.com/drive/folders/1hjetwjNvfDpQCrUi0O434ET9HnmCWnxw?usp=sharing',
+				icon: 'fab fa-google-drive'
+			},
+			{
 				name: 'Curso de C++ - Programación ATS',
 				path: 'https://youtube.com/playlist?list=PLWtYZ2ejMVJlUu1rEHLC0i_oibctkl0Vh',
 				icon: 'fab fa-youtube'
